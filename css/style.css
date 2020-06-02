@@ -1,0 +1,13 @@
+#gallery {
+  width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+.photos img {
+  width: 100%;
+  display: none;
+}
+
+.photos img:first-child{
+  display: block;
+}
