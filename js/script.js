@@ -25,6 +25,18 @@ btnNext.onclick = function () {
     i = 0;
   }
   images[i].style.display = 'block';
-  console.log(i);
-  
+  console.log(i);  
+}
+
+//модальное окно
+
+var button = document.querySelector('#button');
+var modal = document.querySelector('#modal');
+var close = document.querySelector('#close');
+
+button.onclick = function () {
+  modal.classList.add('modal_active');
+}
+close.onclick = function () {
+  modal.classList.remove('modal_active');
 }
